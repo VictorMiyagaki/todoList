@@ -94,3 +94,34 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .box {
+    max-width: 900px;
+    border-radius: 20px;
+  }
+
+  body, p, button, input[type="text"] {
+    font-size: 50px;
+  }
+
+  form.item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.item {
+    min-height: 125px;
+  }
+
+  button {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+}
